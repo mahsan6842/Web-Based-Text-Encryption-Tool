@@ -103,12 +103,7 @@ Example:
 
 
 
-
-- 💾 Downloaded Ciphertext  
-
----
-
-## 🧮 Sample Inputs & Outputs
+## 🧮Explaination Inputs & Outputs
 
 ### 🔹 **1. Caesar Cipher**
 **Plain Text:** HELLO WORLD  
@@ -118,7 +113,6 @@ Example:
 
 **Decryption:** Shift 3 → HELLO WORLD  
 
----
 
 ### 🔹 **2. Base64 Encoding**
 **Plain Text:** Hello, this is a Base64 test.  
@@ -127,7 +121,7 @@ Example:
 
 **Decryption:** → Hello, this is a Base64 test.  
 
----
+
 
 ### 🔹 **3. AES Encryption**
 **Plain Text:** This is a secret message.  
@@ -137,7 +131,7 @@ Example:
 
 **Decryption:** Same password → “This is a secret message.”  
 
----
+
 
 ### 🔹 **4. DES Encryption**
 **Plain Text:** DES example text  
@@ -147,7 +141,6 @@ Example:
 
 **Decryption:** Same password → “DES example text”  
 
----
 
 ### 🔹 **5. SHA-256 Hashing**
 **Plain Text:** mypassword  
@@ -157,7 +150,7 @@ Example:
 
 *(Cannot be decrypted — one-way hash)*  
 
----
+
 
 ## 📘 Example 2 (Additional Inputs)
 
@@ -166,21 +159,21 @@ Example:
 **Shift:** 5  
 **Output:** JSHWDUYNSL YTTQ  
 
----
+
 
 ### 🔸 AES Example
 **Plain Text:** Confidential data must stay safe.  
 **Password:** secureKey2025  
 **Output:** `U2FsdGVkX1+xLhrb1tU6rUJ2o4JYzVshShJ1vY+WgD8=`  
 
----
+
 
 ### 🔸 SHA-256 Example
 **Plain Text:** securepassword2025  
 **Output:**  
 `5dc4f758b5ccaf2d61b53b89b6df8353c55e4a84a687dcfc5a28d3a5ce2fcbbe`
 
----
+
 
 ## 🧰 Installation & Setup
 
