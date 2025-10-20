@@ -1,0 +1,49 @@
+<link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+
+  <div class="card">
+    <h1>🔐 Web-Based Text Encryption Tool</h1>
+    <p class="lead">Encrypt, Decrypt, or Hash text using modern algorithms.</p>
+
+    <div class="grid">
+      <div>
+        <label>Plain Text / Cipher Text</label>
+        <textarea id="inputText" placeholder="Enter your text here..."></textarea>
+      </div>
+
+      <div>
+        <label>Select Algorithm</label>
+        <select id="algorithm">
+          <option value="">-- Choose Algorithm --</option>
+          <option value="caesar">Caesar Cipher</option>
+          <option value="base64">Base64</option>
+          <option value="aes">AES</option>
+          <option value="des">DES</option>
+          <option value="sha256">SHA-256 (Hash Only)</option>
+        </select>
+
+        <label style="margin-top:12px;">Password / Key (if needed)</label>
+        <input type="text" id="password" placeholder="Enter password or shift key" />
+
+        <label style="margin-top:12px;">Mode</label>
+        <select id="mode">
+          <option value="encrypt">Encrypt</option>
+          <option value="decrypt">Decrypt</option>
+        </select>
+
+        <button onclick="processText()" style="margin-top:16px;">Run</button>
+      </div>
+
+      <div class="full-width">
+        <label>Output</label>
+        <textarea id="outputText" readonly placeholder="Result will appear here..."></textarea>
+      </div>
+    </div>
+
+    <div class="footer">
+      <button class="small-btn" onclick="copyOutput()">📋 Copy Output</button>
+      <p class="algo-desc">Supports Caesar, AES, DES, Base64 & SHA-256 Hashing.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
