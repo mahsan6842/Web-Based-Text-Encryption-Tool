@@ -1,0 +1,172 @@
+/* === Modern Neon Glassmorphism Theme === */
+
+:root {
+  --bg: radial-gradient(circle at top left, #0a0f24, #050914 60%);
+  --glass: rgba(255, 255, 255, 0.07);
+  --accent: #7c3aed;
+  --accent-glow: 0 0 12px rgba(124, 58, 237, 0.8);
+  --muted: #a5b4fc;
+  --text: #f1f5ff;
+  --card: rgba(255, 255, 255, 0.05);
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  --border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", system-ui, sans-serif;
+  letter-spacing: 0.4px;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text);
+  padding: 20px;
+  overflow-x: hidden;
+}
+
+/* === Card === */
+.card {
+  width: 900px;
+  max-width: 100%;
+  background: var(--card);
+  backdrop-filter: blur(14px);
+  border-radius: 16px;
+  padding: 28px 32px;
+  border: var(--border);
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+  animation: fadeIn 0.8s ease;
+}
+
+.card:hover {
+  box-shadow: 0 0 40px rgba(124, 58, 237, 0.3);
+}
+
+/* === Header === */
+h1 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #fff;
+  text-shadow: var(--accent-glow);
+}
+
+p.lead {
+  font-size: 14px;
+  color: var(--muted);
+  margin-bottom: 22px;
+}
+
+/* === Form Grid === */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+label {
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+
+input[type='text'],
+textarea,
+select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: var(--border);
+  background: var(--glass);
+  color: var(--text);
+  outline: none;
+  transition: all 0.3s;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid var(--accent);
+  box-shadow: var(--accent-glow);
+}
+
+textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+/* === Buttons === */
+button {
+  background: linear-gradient(90deg, #7c3aed, #4f46e5);
+  border: none;
+  padding: 12px 16px;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: var(--accent-glow);
+}
+
+button:hover {
+  transform: scale(1.04);
+  box-shadow: 0 0 20px rgba(124, 58, 237, 0.8);
+}
+
+.small-btn {
+  background: transparent;
+  border: var(--border);
+  padding: 8px 12px;
+  border-radius: 8px;
+  color: var(--muted);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.small-btn:hover {
+  background: var(--accent);
+  color: white;
+  border-color: transparent;
+}
+
+/* === Footer === */
+.footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.algo-desc {
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 8px;
+  font-style: italic;
+}
+
+.full-width {
+  grid-column: 1 / -1;
+  margin-top: 12px;
+}
+
+/* === Glow Animation === */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    padding: 24px;
+  }
+}
