@@ -3,7 +3,6 @@
 A single-page **web application** that allows users to encrypt and decrypt text using multiple algorithms such as **Caesar Cipher**, **AES**, **DES**, **Base64**, and **SHA-256 hashing**.  
 It’s built with **HTML, CSS, and JavaScript (CryptoJS)** — no server required!
 
----
 
 ## 🚀 Project Overview
 
@@ -17,7 +16,7 @@ Users can:
 
 It’s perfect for students, developers, or anyone learning **cryptography and web security fundamentals**.
 
----
+
 
 ## 🧩 Features
 
@@ -41,7 +40,7 @@ It’s perfect for students, developers, or anyone learning **cryptography and w
 - Download Output File  
 - SHA-256 hash mode (Encrypt only)
 
----
+
 
 ## 🧠 How It Works
 
@@ -63,7 +62,7 @@ It’s perfect for students, developers, or anyone learning **cryptography and w
 5. **Click Encrypt/Process:**  
    Output appears instantly!
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -75,15 +74,36 @@ It’s perfect for students, developers, or anyone learning **cryptography and w
 | **Backend** | None — all in-browser logic |
 | **Hosting (optional)** | GitHub Pages / Netlify |
 
----
 
 ## 📸 Screenshots
-
-> *(Add your own screenshots here)*  
-Example:
 - 🖥️ Main Interface  
-- 🔐 Encryption Output  
-- 🔓 Decryption Example  
+<img width="706" height="314" alt="image" src="https://github.com/user-attachments/assets/9b55994b-465c-49c8-a6bd-1153e4e16350" />
+
+<img width="898" height="383" alt="image" src="https://github.com/user-attachments/assets/676ec62c-1481-475e-842c-62d24293f836" />
+
+Example:
+
+- 🔐 Encryption Output
+- <img width="893" height="389" alt="image" src="https://github.com/user-attachments/assets/d4a40de1-c37b-47bb-ba9f-587595bd5f04" />
+- <img width="905" height="377" alt="image" src="https://github.com/user-attachments/assets/d98d5eea-be89-4e42-a788-45c655a9db39" />
+- <img width="902" height="366" alt="image" src="https://github.com/user-attachments/assets/1f866612-91b8-4510-b453-2e01448d06b7" />
+- <img width="907" height="383" alt="image" src="https://github.com/user-attachments/assets/0e8991f0-e381-48e3-a420-e6ebe6edbfed" />
+- <img width="895" height="370" alt="image" src="https://github.com/user-attachments/assets/f68dd613-9569-4a32-881f-a1b89982639e" />
+
+
+
+ 
+
+- 🔓 Decryption Example
+- <img width="905" height="341" alt="image" src="https://github.com/user-attachments/assets/314421ed-58d6-41db-a773-9d0534ac54cf" />
+- <img width="920" height="373" alt="image" src="https://github.com/user-attachments/assets/834f7a24-dbef-4398-bedf-ee644e0c7034" />
+- <img width="905" height="376" alt="image" src="https://github.com/user-attachments/assets/f8eaca55-fe85-4eb9-ba2b-04fc8575ec07" />
+-<img width="914" height="367" alt="image" src="https://github.com/user-attachments/assets/3cfabf9e-4fa9-4a32-9252-242761b5531a" />
+- Mode: Encrypt (Decryption disabled) in SHA-256 Hashing
+
+
+
+
 - 💾 Downloaded Ciphertext  
 
 ---
@@ -182,8 +202,8 @@ Netlify
 
 Vercel
 
-# Screenshot
-<img width="706" height="314" alt="image" src="https://github.com/user-attachments/assets/0937a73e-ed08-49a2-b39c-43be304b0e8d" />
+# Project Demo Link
+https://drive.google.com/file/d/1g5_qANmzaqcNMimhxOfBsmAtMzcPQ_iE/view?usp=sharing
 
 
 # 🔒 Security Note
